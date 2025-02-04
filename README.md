@@ -1,3 +1,19 @@
+# JP-LRN-003-create-llama-fastapi
+
+Steps
+ -      poetry install (only do once)
+ -      poetry shell
+ -      poetry run generate (only do once or if you add new files to the /data folder)
+ -      poetry run dev (run the app)
+ -      http://localhost:8000 (use swagger to test the api endpoints)
+
+
+
+
+# -------------------------------------------------------------------------------
+# Readme file generated from template
+
+
 This is a [LlamaIndex](https://www.llamaindex.ai/) project using [FastAPI](https://fastapi.tiangolo.com/) bootstrapped with [`create-llama`](https://github.com/run-llama/LlamaIndexTS/tree/main/packages/create-llama).
 
 ## Getting Started
