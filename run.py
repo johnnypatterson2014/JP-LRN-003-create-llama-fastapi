@@ -13,7 +13,7 @@ import rich
 dotenv.load_dotenv()
 
 
-FRONTEND_DIR = Path(os.getenv("FRONTEND_DIR", ".frontend"))
+FRONTEND_DIR = Path(os.getenv("FRONTEND_DIR", ".frontend-fake"))
 APP_HOST = os.getenv("APP_HOST", "localhost")
 APP_PORT = int(
     os.getenv("APP_PORT", 8000)
